@@ -1,5 +1,6 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
+import { meRouter } from "../auth/me";
 import { authRouter } from "../auth/register";
 
 const app = new Hono();
@@ -9,7 +10,8 @@ app
 	.get("/", (c) => {
 		return c.text("Hello Hono!");
 	})
-	.route("/", authRouter);
+	.route("/", authRouter)
+	.route("/", meRouter);
 
 serve(
 	{
