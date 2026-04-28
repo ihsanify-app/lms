@@ -296,7 +296,7 @@
 - ✅ Hour 4 — Login Page
 
 **Phase 2 — Dashboard UI**
-- ❌ Hour 5 — App Shell & Layout
+- 🔄 Hour 5 — App Shell & Layout
 - ❌ Hour 6 — Notification Panel
 - ❌ Hour 7 — Dashboard: Admin View
 - ❌ Hour 8 — Dashboard: Teacher View
